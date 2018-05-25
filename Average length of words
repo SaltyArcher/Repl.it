@@ -1,0 +1,10 @@
+function computeAverageLengthOfWords(word1, word2) {
+  a = word1.length
+  b = word2.length
+  c = a+b
+  d = c/2
+  return d
+}
+
+var output = computeAverageLengthOfWords('code', 'programs');
+console.log(output); // --> 6
